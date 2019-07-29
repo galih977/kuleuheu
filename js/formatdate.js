@@ -1,0 +1,1 @@
+function formatDate(date){var date=new Date(Date.parse(date));var year=date.getFullYear();var monthNumber=date.getMonth()+1;var month=monthNumber>9?monthNumber:"0"+monthNumber;var dayNumber=date.getDate();var day;if(dayNumber>31){day="01";monthNumber++;month=monthNumber>9?monthNumber:"0"+monthNumber}else{day=dayNumber>9?dayNumber:"0"+dayNumber}return year+"-"+month+"-"+day}
