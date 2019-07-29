@@ -1,0 +1,79 @@
+@font-face{
+    font-family:YgoCardNa;
+    src:url(/font/ygo_card_na.ttf)
+}
+.quick-news-section{
+    margin:25px 0 30px
+}
+@media screen and (max-width:991px){
+    .quick-news-section{
+        margin:20px 0 25px
+    }
+}
+@media screen and (max-width:767px){
+    .quick-news-section{
+        margin:15px 0 20px
+    }
+}
+@media only screen and (max-width:430px){
+    .quick-news-section{
+        margin:10px 0 15px
+    }
+}
+.quick-news li{
+    background-color:rgba(36,59,85,.4);
+    transition:background-color .3s;
+    padding:0
+}
+.quick-news li a{
+    text-decoration:none;
+    color:#dedede;
+    display:block;
+    padding:.5rem .75rem
+}
+.quick-news li:hover{
+    background-color:rgba(36,59,85,.8)
+}
+.quick-news li .news-line{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+.quick-news li .news-line .news-date{
+    font-weight:600
+}
+.quick-news li .news-line .news-title{
+    color:#56b2ef;
+    display:inline;
+    font-size:17px;
+    font-weight:600
+}
+@media screen and (max-width:575px){
+    .quick-news li .news-line .news-title{
+        font-size:15px
+    }
+    .list-group.quick-news .list-group-item a{
+        padding:.3rem
+    }
+}
+.front-page-heading{
+    font-size:37px;
+    letter-spacing:.5px;
+    text-align:center;
+    margin-bottom:16px;
+    text-transform:uppercase
+}
+@media only screen and (max-width:767px){
+    .front-page-heading{
+        font-size:28px;
+        letter-spacing:.3px
+    }
+}
+@media only screen and (max-width:430px){
+    .front-page-heading{
+        font-size:25px;
+        letter-spacing:normal;
+        margin-top:0;
+        margin-bottom:5px
+    }
+}
